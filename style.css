@@ -1,0 +1,246 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../images/header-image.jpg);
+    background-size: cover;
+}
+.content{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    width: 100vw;
+}
+.heading{
+    color: aliceblue;
+    font-size: 30px;
+}
+.p{
+    color: red;
+    font-size: 25px;
+}
+.explore{
+    text-decoration: none;
+    background-color: red;
+    font-size: 20px;
+    padding: 20px;
+    margin: 3%;
+    border-radius: 30px;
+}
+#onediv{
+    display: flex;
+}
+.items1{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center ;
+    color: aliceblue;
+    padding: 5%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.items2{
+    flex: 3;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;   
+}
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 2vh;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    box-shadow: 0 0 10px white; 
+    background-color: white;
+    color: black;
+}
+.twodiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.items3{
+    width: 90%;
+    height: 35vh;
+    display: flex;
+    margin-top: 5%;   
+    box-shadow: 3px 5px 5px 10px rgb(201, 189, 189);
+}
+.one{
+    flex: 1;
+}
+.two{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+.first2{
+    flex: 1;
+}
+.second2{
+    flex: 1;
+    margin: 3%;
+}
+.third2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 25px;
+}
+.items5{
+    width: 90%;
+    display: flex;
+    margin-top: 5%;
+}
+.five{
+    flex: 1;
+    display: flex;
+    flex-direction: column ;
+    padding: 3%;
+    box-shadow: 3px 5px 5px 10px rgb(201, 189, 189);
+    width: 90%;
+    margin: 15px;
+}
+.fiveone{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fivetwo{
+    flex: 1;
+}
+footer{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    margin-top: 5%;
+}
+.about{
+    width: 90vw;
+    height: 80vh;
+    background-color: red;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.aboutus{
+    display: flex;
+    flex: 0.5;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.aboutpara{
+    display: flex;
+    flex: 1;
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+}
+.list{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+.list1{
+    font-size: 18px;
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: '® ';
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+.details1{
+    text-align: center;
+    font-size: 20px;
+}
+.last{
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+}
+.last1{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 25px;
+    margin: 2%;
+}
+.last2{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    border: 5px solid whitesmoke;
+    height: 10vh;
+    width: 20vw;
+    margin-right: 20px;
+}
+.contact{
+    display: flex;
+}
+.contact1 {
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: aqua;
+    font-size: 20px;
+}
+.contact2 {
+    padding: 10%;
+    background-color: #ee4758;
+    color: white;
+    font-size: 20px;
+}
+.img-box img {
+    width: 100%;
+    height: 100%;
+}
+.submit{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ee4758;
+    color: white;
+    font-size: 20px;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
